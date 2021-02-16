@@ -13,7 +13,9 @@ To install gmqtt, run:
 pip3 install gmqtt
 
 To download the software, run (as user pi on a Raspberry Pi e.g.):
+
 cd ~/
+
 git clone https://github.com/canique/boiler-control-demo
 
 # Usage
