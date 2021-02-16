@@ -1,6 +1,7 @@
 # boiler-control-demo
 Example code written in python to set the heating water temperature of a boiler. Can be run on a Raspberry Pi for example.
 Has been successfully tested with a Vaillant ecoTEC Plus.
+This example code uses MQTT v5 to communicate with a Canique Gateway and thereby send commands to control a gas boiler.
 
 # Installation
 Prerequisites:
