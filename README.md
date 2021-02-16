@@ -25,6 +25,6 @@ GW-IP is the IP address of your Canique Gateway
 
 TEMPERATURE is the boiler temperature that you want to set
 
-Example Usage: python3 /usr/local/bin/cnq-set-boiler-temperature.py 192.168.10.233 50
+Example Usage: python3 ~/boiler-control-demo/cnq-set-boiler-temperature.py 192.168.10.233 50
 
 This will set the temperature of your boiler to 50°C.
