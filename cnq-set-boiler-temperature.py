@@ -20,7 +20,7 @@ def on_message(client, topic, payload, qos, properties):
     if topic == 'heating/1/program/mode':
         currentMode = payload.decode('ascii')
         print("Current Mode:", currentMode)
-        
+
         if currentMode == 'expert':
             sendSetTemperatureRequest(client)
         else: #set heating mode to expert
@@ -65,7 +65,7 @@ async def main(broker_host):
     global STOP
 
     STOP = asyncio.Event()
-    client = gmqtt.Client("demo-client-" + socket.gethostname(), clean_session=True)
+    client = gmqtt.Client("cnq-set-boiler-temperature-" + socket.gethostname(), clean_session=True)
 
     client.on_connect = on_connect
     client.on_message = on_message
@@ -88,7 +88,7 @@ async def main(broker_host):
 
 if __name__ == '__main__':
     if len(sys.argv) <= 2:
-        print("Usage: democlient.py hostname boilerTemperature")
+        print("Usage: cnq-set-boiler-temperature.py hostname boilerTemperature")
         exit(1)
 
     brokerHost = sys.argv[1]
