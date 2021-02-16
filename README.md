@@ -12,8 +12,12 @@ Code should run on any computer if you have a Python 3 environment.
 To install gmqtt, run:
 pip3 install gmqtt
 
+To download the software, run (as user pi on a Raspberry Pi e.g.):
+cd ~/
+git clone https://github.com/canique/boiler-control-demo
+
 # Usage
-python3 /usr/local/bin/cnq-set-boiler-temperature.py GW-IP TEMPERATURE
+python3 ~/boiler-control-demo/cnq-set-boiler-temperature.py GW-IP TEMPERATURE
 
 GW-IP is the IP address of your Canique Gateway
 
