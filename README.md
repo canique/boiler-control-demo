@@ -1,5 +1,5 @@
 # boiler-control-demo
-Example code to set the water temperature of a boiler written in python. Can be run on a Raspberry Pi for example.
+Example code written in python to set the heating water temperature of a boiler. Can be run on a Raspberry Pi for example.
 Has been successfully tested with a Vaillant ecoTEC Plus.
 
 # Installation
