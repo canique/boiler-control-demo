@@ -5,7 +5,7 @@ This example code uses MQTT v5 to communicate with a Canique Gateway and thereby
 
 # Installation
 Prerequisites:
-1) You need a Canique Gateway and a Canique Heat Control device - as of Feb 2021 available on request from https://www.canique.com
+1) You need a Canique Gateway and a Canique Boiler Bridge device - as of Feb 2021 available on request from https://www.canique.com
 
 2) You need Python 3. Code has been tested with Python 3.7.3 and gmqtt library 0.6.9 on a Raspberry Pi 3.
 Code should run on any computer if you have a Python 3 environment.
